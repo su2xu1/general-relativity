@@ -24,7 +24,8 @@ Notes on the Derivation of Gravitational Waves
 Can we derive gravitational waves starting from the Einstein equations?
 Although it involves many assumptions, we were able to derive them.
 
-First, consider the metric $g_{ik}$.  Assuming a very small perturbation from flat spacetime (weak gravitational field), we write:
+First, consider the metric $$g_{ik}$$.  
+Assuming a very small perturbation from flat spacetime (weak gravitational field), we write:
 
 $$
 \begin{equation}
