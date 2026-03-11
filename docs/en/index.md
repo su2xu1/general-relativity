@@ -24,7 +24,7 @@ Notes on the Derivation of Gravitational Waves
 Can we derive gravitational waves starting from the Einstein equations?
 Although it involves many assumptions, we were able to derive them.
 
-First, consider the metric $g_{ik}$. Assuming a very small perturbation from flat spacetime (weak gravitational field), we write:
+First, consider the metric $$g_{ik}$$. Assuming a very small perturbation from flat spacetime (weak gravitational field), we write:
 
 $$
 \begin{equation}
@@ -131,7 +131,7 @@ R_{iklm} = \frac{1}{2} \left(
 \end{equation}
 $$
 
-Under the weak gravitational field condition $h_{ik} \ll 1$,it is reasonable to treat $$\Gamma^i_{kl} \ll 1$$.
+Under the weak gravitational field condition $h_{ik} \ll 1$,it is reasonable to treat $\Gamma^i_{kl} \ll 1$.
 Therefore,
 
 $$
@@ -140,7 +140,7 @@ $$
 \end{equation*}
 $$
 
-So the appropriate form of $$R_{iklm}$$ is as follows.
+So the appropriate form of $R_{iklm}$ is as follows.
 
 $$
 \begin{equation*}
@@ -187,7 +187,7 @@ $$
 Here, the last three terms in the bracket cancel out. In fact, the gauge fixing above was performed precisely to achieve this.
 From equation (107.5),
 $$\frac{\partial \phi^k_i}{\partial x^k}=0 \quad \left( \phi^k_i = h^k_i - \frac{1}{2}\delta^k_i h \right)$$,
-so $$h^k_i = \phi^k_i + \frac{1}{2}\delta^k_i h$$, and
+so $h^k_i = \phi^k_i + \frac{1}{2}\delta^k_i h$, and
 
 $$
 \begin{align*}
@@ -199,9 +199,9 @@ $$
 \end{align*}
 $$
 
-The condition $$\frac{\partial \phi^k_i}{\partial x^k}=0$$ in equation (107.5) is called the De Donder gauge, also known as the harmonic coordinate gauge.
+The condition $\frac{\partial \phi^k_i}{\partial x^k}=0$ in equation (107.5) is called the De Donder gauge, also known as the harmonic coordinate gauge.
 This is where the technique of fixing the excess degrees of freedom to simplify the equations comes in!
-It was apparently inspired by the Lorenz gauge condition $$\partial_{\mu} A^{\mu} = 0$$ used in Maxwell's equations.
+It was apparently inspired by the Lorenz gauge condition $\partial_{\mu} A^{\mu} = 0$ used in Maxwell's equations.
 
 Ultimately, it simplifies to:
 
@@ -245,6 +245,6 @@ $$
 \end{equation}
 $$
 
-Finally, we find the wave equation of $h_{ik}$ propagating through four-dimensional spacetime  at  $c$, the speed of light , as a "gravitational wave" !!!
+Finally, we find the wave equation of $h_{ik}$ propagating four-dimensional spacetime  at  the speed of light , as a "gravitational wave" !!!
 
 Reference: Landau & Lifshitz, "The Classical Theory of Fields"
