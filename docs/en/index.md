@@ -24,7 +24,7 @@ Notes on the Derivation of Gravitational Waves
 Can we derive gravitational waves starting from the Einstein equations?
 Although it involves many assumptions, we were able to derive them.
 
-First, consider the metric $$g_{ik}$$. Assuming a very small perturbation from flat spacetime (weak gravitational field), we write:
+First, consider the metric $$g_{ik}$$.  Assuming a very small perturbation from flat spacetime (weak gravitational field), we write:
 
 $$
 \begin{equation}
@@ -32,11 +32,11 @@ g_{ik} = g_{ik}^{(0)} + h_{ik} \quad (h_{ik} \ll 1) \tag{107.1}
 \end{equation}
 $$
 
-For the contravariant tensor $g^{ik}$,
+For the contravariant tensor $$g^{ik}$$,
 since it must satisfy $$g_{il}g^{lk} = (g_{il}^{(0)} + h_{il})g^{lk} = \delta_i^k$$,
-we consider the appropriate form of $g^{ik}$.
+we consider the appropriate form of $$g^{ik}$$.
 
-If $g^{ik} = g^{(0)ik} - h^{ik} + h^i_l h^{lk}$, 
+If $$g^{ik} = g^{(0)ik} - h^{ik} + h^i_l h^{lk}$$, 
 
 then:
 $$
@@ -46,7 +46,7 @@ g_{il}g^{lk} &= (g_{il}^{(0)} + h_{il})(g^{(0)ik} - h^{ik} + h^i_l h^{lk}) \\
 \end{align*}
 $$
 
-This holds to $O(h^3)$.  
+This holds to $$O(h^3)$$.  
 
 Again, let $g^{ik} = g^{(0)ik} - h^{ik} + h^i_l h^{lk}$.
 
