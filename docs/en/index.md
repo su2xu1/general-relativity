@@ -33,11 +33,11 @@ g_{ik} = g_{ik}^{(0)} + h_{ik} \quad (h_{ik} \ll 1) \tag{107.1}
 \end{equation}
 $$
 
-For the contravariant tensor $g^{ik}$,
-since it must satisfy $g_{il}g^{lk} = (g_{il}^{(0)} + h_{il})g^{lk} = \delta_i^k$,
-we consider the appropriate form of $g^{ik}$.
+For the contravariant tensor $$g^{ik}$$,
+since it must satisfy $$g_{il}g^{lk} = (g_{il}^{(0)} + h_{il})g^{lk} = \delta_i^k$$,
+we consider the appropriate form of $$g^{ik}$$.
 
-If $g^{ik} = g^{(0)ik} - h^{ik} + h^i_l h^{lk}$, 
+If $$g^{ik} = g^{(0)ik} - h^{ik} + h^i_l h^{lk}$$, 
 
 then:
 $$
@@ -47,14 +47,14 @@ g_{il}g^{lk} &= (g_{il}^{(0)} + h_{il})(g^{(0)ik} - h^{ik} + h^i_l h^{lk}) \\
 \end{align*}
 $$
 
-This holds to $O(h^3)$.  
+This holds to $$O(h^3)$$.  
 
-Again, let $g^{ik} = g^{(0)ik} - h^{ik} + h^i_l h^{lk}$.
+Again, let $$g^{ik} = g^{(0)ik} - h^{ik} + h^i_l h^{lk}$$.
 
-The determinant is also approximated as $g = g^{(0)}(1+h) \quad (h \equiv h^i_i)$.
+The determinant is also approximated as $$g = g^{(0)}(1+h) \quad (h \equiv h^i_i)$$.
 
-Next, consider an infinitesimal coordinate transformation $x'^i = x^i + \xi^i$.   
-We assume $\xi^i \ll 1$.
+Next, consider an infinitesimal coordinate transformation $$x'^i = x^i + \xi^i$$.   
+We assume $$\xi^i \ll 1$$.
 
 From the definition of tensors,
 
@@ -67,7 +67,7 @@ g'^{ik}(x'^l) &= g^{nm}(x^l) \frac{\partial x'^i}{\partial x^n} \frac{\partial x
 \end{align*}
 $$
 
-Expanding $g'^{ik}(x'^l)$ (i.e., $g'^{ik}(x^l + \xi^l)$) in powers of $\xi$$,
+Expanding $$g'^{ik}(x'^l)$$ (i.e., $$g'^{ik}(x^l + \xi^l)$$) in powers of $$\xi$$,
 
 $$
 \begin{align*}
@@ -100,7 +100,7 @@ h'_{ik} &= h_{ik} - \frac{\partial \xi_k}{\partial x^i} - \frac{\partial \xi_i}{
 \end{align*}
 $$
 
-An auxiliary condition is imposed on $h_{ik}$ (the so-called gauge fixing).
+An auxiliary condition is imposed on $$h_{ik}$$ (the so-called gauge fixing).
 
 $$
 \begin{equation}
@@ -132,7 +132,7 @@ R_{iklm} = \frac{1}{2} \left(
 \end{equation}
 $$
 
-Under the weak gravitational field condition $h_{ik} \ll 1$,it is reasonable to treat $\Gamma^i_{kl} \ll 1$.
+Under the weak gravitational field condition $$$h_{ik} \ll 1$$,it is reasonable to treat $$\Gamma^i_{kl} \ll 1$$.
 Therefore,
 
 $$
@@ -141,7 +141,7 @@ $$
 \end{equation*}
 $$
 
-So the appropriate form of $R_{iklm}$ is as follows.
+So the appropriate form of $$R_{iklm}$$ is as follows.
 
 $$
 \begin{equation*}
@@ -151,7 +151,7 @@ R_{iklm} = \frac{1}{2} \left(
 \end{equation*}
 $$
 
-For $R_{ik}$, it can be approximated as follows.
+For $$R_{ik}$$, it can be approximated as follows.
 
 $$
 \begin{equation*}
@@ -188,7 +188,7 @@ $$
 Here, the last three terms in the bracket cancel out. In fact, the gauge fixing above was performed precisely to achieve this.
 From equation (107.5),
 $$\frac{\partial \phi^k_i}{\partial x^k}=0 \quad \left( \phi^k_i = h^k_i - \frac{1}{2}\delta^k_i h \right)$$,
-so $h^k_i = \phi^k_i + \frac{1}{2}\delta^k_i h$, and
+so $$h^k_i = \phi^k_i + \frac{1}{2}\delta^k_i h$$, and
 
 $$
 \begin{align*}
@@ -200,9 +200,9 @@ $$
 \end{align*}
 $$
 
-The condition $\frac{\partial \phi^k_i}{\partial x^k}=0$ in equation (107.5) is called the De Donder gauge, also known as the harmonic coordinate gauge.
+The condition $$\frac{\partial \phi^k_i}{\partial x^k}=0$$ in equation (107.5) is called the De Donder gauge, also known as the harmonic coordinate gauge.
 This is where the technique of fixing the excess degrees of freedom to simplify the equations comes in!
-It was apparently inspired by the Lorenz gauge condition $\partial_{\mu} A^{\mu} = 0$ used in Maxwell's equations.
+It was apparently inspired by the Lorenz gauge condition $$\partial_{\mu} A^{\mu} = 0$$ used in Maxwell's equations.
 
 Ultimately, it simplifies to:
 
@@ -220,7 +220,7 @@ R_{ik} - \frac{1}{2}g_{ik}R = \frac{8\pi k}{c^4}T_{ik}
 \end{equation*}
 $$
 
-Assuming the propagating space is a vacuum with no matter or energy, we set $T_{ik} \rightarrow 0$.
+Assuming the propagating space is a vacuum with no matter or energy, we set $$T_{ik} \rightarrow 0$$.
 
 
 $$
@@ -229,7 +229,7 @@ R_{ik} - \frac{1}{2}g_{ik}R = 0
 \end{equation*}
 $$
 
-Contracting both sides with $g^{ik}$,
+Contracting both sides with $$g^{ik}$$,
 
 $$
 \begin{equation*}
@@ -237,7 +237,7 @@ g^{ik}\left(R_{ik} - \frac{1}{2}g_{ik}R \right) = R - \frac{1}{2}(4)R = -R = 0
 \end{equation*}
 $$
 
-Thus $R$ is strictly $R=0$ in space where no matter or energy exists. Therefore $\frac{1}{2}\Box h_{ik} = 0$, 
+Thus $$R$$ is strictly $$R=0$$ in space where no matter or energy exists. Therefore $\frac{1}{2}\Box h_{ik} = 0$, 
 i.e.,
 
 $$
@@ -246,6 +246,6 @@ $$
 \end{equation}
 $$
 
-Finally, we find the wave equation of $h_{ik}$ propagating four-dimensional spacetime  at  the speed of light , as a "gravitational wave" !!!
+Finally, we find the wave equation of $$h_{ik}$$ propagating four-dimensional spacetime  at  the speed of light , as a "gravitational wave" !!!
 
 Reference: Landau & Lifshitz, "The Classical Theory of Fields"
