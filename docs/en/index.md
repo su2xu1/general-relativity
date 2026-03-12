@@ -132,7 +132,7 @@ R_{iklm} = \frac{1}{2} \left(
 \end{equation}
 $$
 
-Under the weak gravitational field condition $$$h_{ik} \ll 1$$,it is reasonable to treat $$\Gamma^i_{kl} \ll 1$$.
+Under the weak gravitational field condition $$h_{ik} \ll 1$$,it is reasonable to treat $$\Gamma^i_{kl} \ll 1$$.
 Therefore,
 
 $$
@@ -237,7 +237,7 @@ g^{ik}\left(R_{ik} - \frac{1}{2}g_{ik}R \right) = R - \frac{1}{2}(4)R = -R = 0
 \end{equation*}
 $$
 
-Thus $$R$$ is strictly $$R=0$$ in space where no matter or energy exists. Therefore $\frac{1}{2}\Box h_{ik} = 0$, 
+Thus $$R$$ is strictly $$R=0$$ in space where no matter or energy exists. Therefore $$\frac{1}{2}\Box h_{ik} = 0$$, 
 i.e.,
 
 $$
